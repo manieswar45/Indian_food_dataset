@@ -22,18 +22,3 @@ The goal of this project is to build an image classification model that accurate
 
 4. **Evaluation**:
    - The model’s performance is evaluated on a validation set using accuracy as the primary metric.
-
-## Project Structure
-
-```plaintext
-├── data/
-│   ├── train/          # Training images
-│   ├── val/            # Validation images
-├── notebooks/          # Jupyter notebooks for exploration and prototyping
-├── src/                # Source code for the project
-│   ├── data_augmentation.py  # Data augmentation pipeline
-│   ├── model.py        # Model architecture and training scripts
-│   └── utils.py        # Utility functions
-├── README.md           # Project documentation
-├── requirements.txt    # Python package dependencies
-└── train.py            # Main script for training the model
